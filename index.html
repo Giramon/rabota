@@ -24,16 +24,18 @@
         </div>
         <div class="forms">
             <form action="https://formsubmit.co/rabota_giramon@mail.ru" method="POST">
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_next" value="https://giramon.github.io/rabota/index.html">
                 <div class="form">
-                    <p class="text">Примерное время</p>
+                    <p class="text">Имя человека</p>
                     <input type="text" name="name" required placeholder="Введите имя">
                 </div>
                 <div class="form">
-                    <p class="text">Примерное время</p>
+                    <p class="text">Номер если известен</p>
                     <input type="number" name="telephone" required placeholder="Введите номер">
                 </div>
                 <div class="form">
-                    <p class="text">Примерное время</p>
+                    <p class="text">Фото если есть</p>
                     <input type="file" name="photo">
                 </div>
                 <div class="form">
@@ -41,7 +43,7 @@
                     <input type="time" name="time" required placeholder="Введите примечания">
                 </div>
                 <div class="form">
-                    <p class="text">Примерное время</p>
+                    <p class="text">Приметы</p>
                     <textarea name="message" id="mes" cols="30" rows="10" placeholder="Введите примечания"></textarea>
                 </div>
                 <div class="form">
