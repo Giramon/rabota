@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>P-23</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <a id="logo" href="index.html">Главная</a>
+            <nav id="mainnav">
+                <ul>
+                    <li><a href="pot.html">Без вести пропавшие</a></li>
+                    <li><a href="roz.html">В розыске</a></li>
+                    <li><a href="ume.html">Труп неустановленного человека</a></li>
+                </ul>
+            </nav>
+    </header>
+    <main>
+        <div class="info">
+            <h1 class="info1">Этот сайт был сделан как макет</h1>
+            <p class="info1">На этом сайте нет настоящей информации, всё что тут написано просто обзор моих возможностей</p>
+        </div>
+        <div class="flex-containe">
+            <div class="flex-elems">
+                <form action="https://formsubmit.co/rabota_giramon@mail.ru" method="POST" enctype="multipart/form-data">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_next" value="https://giramon.github.io/rabota/index.html">
+                    <h2>Без вести пропавший</h2>
+                    <div class="form">
+                        <p class="text">ФИО человека</p>
+                        <input type="text" name="name" required placeholder="Введите ФИО">
+                    </div>
+                    <div class="form">
+                        <p class="text">Номер если известен</p>
+                        <input type="number" name="telephone" placeholder="Введите номер">
+                    </div>
+                    <div class="form">
+                        <p class="text">Дата рождения если известена</p>
+                        <input type="date" name="rojden" required>
+                    </div>
+                    <div class="form">
+                        <p class="text">Фото если есть</p>
+                        <input type="file" name="attachment" accept="image/png, image/jpeg">
+                    </div>
+                    <div class="form">
+                        <p class="text">Примерное время если известно</p>
+                        <input type="time" name="time" placeholder="Введите примечания">
+                    </div>
+                    <div class="form">
+                        <p class="text">Приметы</p>
+                        <textarea class="tex" name="message" id="mes" cols="30" rows="10" placeholder="Введите примечания"></textarea>
+                    </div>
+                    <div class="form">
+                        <button class="bt" type="submit">Отправить</button>
+                    </div>
+               </form>
+            </div>
+            <div class="flex-elems">
+                <form action="https://formsubmit.co/rabota_giramon@mail.ru" method="POST" enctype="multipart/form-data">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_next" value="https://giramon.github.io/rabota/index.html">
+                    <h2>Преступник</h2>
+                    <div class="form">
+                        <p class="text">ФИО человека</p>
+                        <input type="text" name="name" required placeholder="Введите имя">
+                    </div>
+                    <div class="form">
+                        <p class="text">Номер если известен</p>
+                        <input type="number" name="telephone" placeholder="Введите номер">
+                    </div>
+                    <div class="form">
+                        <p class="text">Фото если есть</p>
+                        <input type="file" name="attachment" accept="image/png, image/jpeg">
+                    </div>
+                    <div class="form">
+                        <p class="text">Примерное время если известно</p>
+                        <input type="time" name="time" placeholder="Введите примечания">
+                    </div>
+                    <div class="form">
+                        <p class="text">Приметы</p>
+                        <textarea class="tex" name="message" id="me" cols="30" rows="10" placeholder="Введите примечания"></textarea>
+                    </div>
+                    <div class="form">
+                        <button type="submit">Отправить</button>
+                    </div>
+               </form>
+            </div>
+            <div class="flex-elems">
+                <form action="https://formsubmit.co/rabota_giramon@mail.ru" method="POST" enctype="multipart/form-data">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_next" value="https://giramon.github.io/rabota/index.html">
+                    <h2>Труп неустановленного человека</h2>
+                    <div class="form">
+                        <p class="text">Место обнаружения</p>
+                        <input type="text" name="name" required placeholder="Введите имя">
+                    </div>
+                    <div class="form">
+                        <p class="text">Фото</p>
+                        <input type="file" name="attachment" required accept="image/png, image/jpeg">
+                    </div>
+                    <div class="form">
+                        <p class="text">Число обнаружения</p>
+                        <input type="date" name="time" required placeholder="Введите примечания">
+                    </div>
+                    <div class="form">
+                        <p class="text">Приметы</p>
+                        <textarea class="tex" required name="message" id="m" cols="30" rows="10" placeholder="Введите примечания"></textarea>
+                    </div>
+                    <div class="form">
+                        <button type="submit">Отправить</button>
+                    </div>
+               </form>
+            </div>
+        </div>
+    </main>
+    <footer class="ft1">
+
+    </footer>
+</body>
+</html>
