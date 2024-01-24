@@ -11,9 +11,9 @@
         <a id="logo" href="index.html">Главная</a>
             <nav id="mainnav">
                 <ul>
-                    <li><a href="pot.html">Пропавшие</a></li>
-                    <li><a href="roz.html">Розыск</a></li>
-                    <li><a href="ume.html">умерли</a></li>
+                    <li><a href="pot.html">Без вести пропавшие</a></li>
+                    <li><a href="roz.html">В розыске</a></li>
+                    <li><a href="ume.html">Труп неустановленного человека</a></li>
                 </ul>
             </nav>
     </header>
@@ -27,14 +27,18 @@
                 <form action="https://formsubmit.co/rabota_giramon@mail.ru" method="POST" enctype="multipart/form-data">
                     <input type="hidden" name="_captcha" value="false">
                     <input type="hidden" name="_next" value="https://giramon.github.io/rabota/index.html">
-                    <h2>Пропал человек</h2>
+                    <h2>Без вести пропавший</h2>
                     <div class="form">
                         <p class="text">ФИО человека</p>
-                        <input type="text" name="name" required placeholder="Введите имя">
+                        <input type="text" name="name" required placeholder="Введите ФИО">
                     </div>
                     <div class="form">
                         <p class="text">Номер если известен</p>
                         <input type="number" name="telephone" placeholder="Введите номер">
+                    </div>
+                    <div class="form">
+                        <p class="text">Дата рождения если известена</p>
+                        <input type="date" name="rojden" required>
                     </div>
                     <div class="form">
                         <p class="text">Фото если есть</p>
@@ -49,7 +53,7 @@
                         <textarea class="tex" name="message" id="mes" cols="30" rows="10" placeholder="Введите примечания"></textarea>
                     </div>
                     <div class="form">
-                        <button type="submit">Отправить</button>
+                        <button class="bt" type="submit">Отправить</button>
                     </div>
                </form>
             </div>
@@ -87,26 +91,22 @@
                 <form action="https://formsubmit.co/rabota_giramon@mail.ru" method="POST" enctype="multipart/form-data">
                     <input type="hidden" name="_captcha" value="false">
                     <input type="hidden" name="_next" value="https://giramon.github.io/rabota/index.html">
-                    <h2>Нашли мёртвого человека</h2>
+                    <h2>Труп неустановленного человека</h2>
                     <div class="form">
-                        <p class="text">Имя человека</p>
+                        <p class="text">Место обнаружения</p>
                         <input type="text" name="name" required placeholder="Введите имя">
                     </div>
                     <div class="form">
-                        <p class="text">Номер если известен</p>
-                        <input type="number" name="telephone" required placeholder="Введите номер">
+                        <p class="text">Фото</p>
+                        <input type="file" name="attachment" required accept="image/png, image/jpeg">
                     </div>
                     <div class="form">
-                        <p class="text">Фото если есть</p>
-                        <input type="file" name="attachment" accept="image/png, image/jpeg">
-                    </div>
-                    <div class="form">
-                        <p class="text">Примерное время если известно</p>
-                        <input type="time" name="time" required placeholder="Введите примечания">
+                        <p class="text">Число обнаружения</p>
+                        <input type="date" name="time" required placeholder="Введите примечания">
                     </div>
                     <div class="form">
                         <p class="text">Приметы</p>
-                        <textarea class="tex" name="message" id="m" cols="30" rows="10" placeholder="Введите примечания"></textarea>
+                        <textarea class="tex" required name="message" id="m" cols="30" rows="10" placeholder="Введите примечания"></textarea>
                     </div>
                     <div class="form">
                         <button type="submit">Отправить</button>
@@ -114,9 +114,9 @@
                </form>
             </div>
         </div>
-        <div class="forms">
-            
-        </div>
     </main>
+    <footer class="ft1">
+
+    </footer>
 </body>
 </html>
