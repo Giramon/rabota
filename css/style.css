@@ -13,6 +13,18 @@ p {
     text-align: center;
     color: black;
 }
+.text {
+    color: black;
+}
+input {
+    width: 280px;
+    height: 30px;
+    margin-top: -10px;
+}
+#mes {
+    width: 280px;
+    height: 100px;
+}
 h3 {
     color: white;
 }
