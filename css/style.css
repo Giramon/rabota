@@ -226,7 +226,7 @@ li {
     }
     .flex-containe {
         display: flex;
-        width: 350px;
+        width: 300px;
         height: 600px;
         text-align: center;
         justify-content: space-around;
@@ -282,6 +282,7 @@ li {
         font-weight: bold;
         line-height: 100px;
         font-size: 18px; 
+        margin-left: -40px;
     }
     a {
         text-decoration: none;
