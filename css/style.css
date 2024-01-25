@@ -163,7 +163,7 @@ main{
     height: 30px;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 720px) {
     body {
         background-color: white;
         
