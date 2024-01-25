@@ -162,25 +162,27 @@ main{
     width: 300px;
     height: 30px;
 }
+li {
+    list-style: none;
+}
 
 @media screen and (max-width: 720px) {
     body {
         background-color: white;
-        
     }
     h1 {
         color: green;
     }
     p {
         color: white;
-        font-size: 20px;
+        font-size: 16px;
     }
     .f {
         width: 250px;
     }
     .info1 {
         margin-top: 50px;
-        text-align: center;
+        font-size: 16px;
         color: green;
     }
     .text {
@@ -191,13 +193,13 @@ main{
         height: 30px;
         margin-top: -10px;
         font-family: 'Times New Roman', Times, serif;
-        font-size: medium;
+        font-size: 16px;
     }
     .tex {
         width: 280px;
         height: 100px;
         font-family: 'Times New Roman', Times, serif;
-        font-size: medium;
+        font-size: 16px;
     }
     .zag {
         color: white;
@@ -224,13 +226,14 @@ main{
     }
     .flex-containe {
         display: flex;
-        width: 1200px;
-        margin-left: -130px;
+        width: 350px;
         height: 600px;
         text-align: center;
         justify-content: space-around;
         flex-wrap: wrap;
         align-items: center;
+        margin-left: 0px;
+        
     }
     
     .flex-elem {
@@ -245,13 +248,16 @@ main{
     .flex-elems {
         width: 400px;
         height: 600px;
+        margin-top: 40px;
         text-align: center;
         text-decoration: none;
+        
     }
     header {
         height:70px;
-        width: 1040px;
+        width: 0px;
         margin: 0 auto;
+        margin-left: 300px;
     }
     footer{   
         margin: -100px auto 0;
@@ -262,12 +268,12 @@ main{
         margin-top: 750px;
     }
     .ft1{
-        margin: -100px auto 0;
         position: relative;
-        height: 100px;
-        width: 1040px;
+        height: 50px;
+        width: 0px;
         margin: 0 auto; 
-        margin-top: 30px;
+        margin-top: 1200px;
+        
     }
     #logo {
         text-transform: uppercase;
@@ -275,8 +281,8 @@ main{
         color: black;
         font-weight: bold;
         line-height: 100px;
-        font-size: 18px;
-        float: left;
+        font-size: 18px; 
+        margin-left: -85px;
     }
     a {
         text-decoration: none;
@@ -288,12 +294,13 @@ main{
         list-style: none;
         margin: 0;
         padding-left: 0;
-        text-align: center;
+        text-align: left;
     }
     #mainnav li {
         display: inline;
-        margin: 40px;
+        margin-top: 40px;
         font-size: 18px;
+        margin-left: 300px;
     }
     #mainnav a {
         text-decoration: none;
@@ -305,7 +312,7 @@ main{
     }
     main{
         padding-bottom: 100px;
-        width: 1040px;
+        width: 700px;
         margin: 0 auto;  
     }
     #mainnav li.active a {
@@ -315,9 +322,10 @@ main{
     #mainnav {
         text-transform: uppercase;
         text-decoration: none;
-        line-height: 100px;
-        font-size: 24px;
-        float: right;
+        line-height: 50px;
+        
+        width: 600px;
+        text-align: left;
     }
     .im {
         max-width: 200px;
@@ -327,6 +335,9 @@ main{
         margin-top: 40px;
         width: 300px;
         height: 30px;
+    }
+    h2 {
+        font-size: 20px;
     }
     
 }
