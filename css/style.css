@@ -206,7 +206,7 @@ li {
     }
     .flex-container {
         display: flex;
-        width: 300px;
+        width: 400px;
         height: 600px;
         justify-content: space-around;
         flex-wrap: wrap;
@@ -329,7 +329,7 @@ li {
         max-width: 200px;
     }
     #searchbar {
-        margin-left: 0px;
+        margin-left: 50px;
         margin-top: 40px;
         width: 290px;
         height: 30px;
