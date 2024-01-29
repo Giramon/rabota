@@ -25,31 +25,31 @@
                     <h2>Без вести пропавший</h2>
                     <div class="form">
                         <p class="text">Фото</p>
-                        <input type="file" name="attachment" accept="image/png, image/jpeg">
+                        <input type="file" name="attachment" required accept="image/png, image/jpeg">
                     </div>
                     <div class="form">
                         <p class="text">ФИО человека</p>
-                        <input type="text" name="name" required placeholder="Введите ФИО">
+                        <input type="text" name="fio" required placeholder="Введите ФИО">
                     </div>
                     <div class="form">
-                        <p class="text">Дата рождения если известена</p>
-                        <input type="date" name="rojden" required>
+                        <p class="text">Дата рождения</p>
+                        <input type="date" name="data rojden" required>
                     </div>
                     <div class="form">
                         <p class="text">Обстоятельства исчезновения</p>
-                        <textarea class="tex" name="message" id="mesto" cols="30" rows="10" placeholder="Введите примечания"></textarea>
+                        <textarea class="tex" name="obstoiat ischez" required id="mesto" cols="30" rows="10" placeholder="Введите примечания"></textarea>
                     </div>
                     <div class="form">
                         <p class="text">Дата исчезновения</p>
-                        <input type="date" name="rojden" required>
+                        <input type="date" name="data ischez" required>
                     </div>
                     <div class="form">
                         <p class="text">Приметы</p>
-                        <textarea class="tex" name="message" id="mes" cols="30" rows="10" placeholder="Введите примечания"></textarea>
+                        <textarea class="tex" name="primeti" required id="mes" cols="30" rows="10" placeholder="Введите примечания"></textarea>
                     </div>
                     <div class="form">
                         <p class="text">Номер телефона</p>
-                        <input type="number" name="telephone" placeholder="Введите номер">
+                        <input type="number" name="telephone" required placeholder="Введите номер">
                     </div>
                     <div class="form">
                         <button class="bt" type="submit">Отправить</button>
@@ -67,19 +67,19 @@
                     </div>
                     <div class="form">
                         <p class="text">Дата обноружения</p>
-                        <input type="date" name="rojden" required>
+                        <input type="date" name="data obnorusj" required>
                     </div>
                     <div class="form">
                         <p class="text">Место обнаружения</p>
-                        <input type="text" name="name" required placeholder="Введите имя">
+                        <input type="text" name="mexto obnorusj" required placeholder="Введите имя">
                     </div>
                     <div class="form">
                         <p class="text">Приметы</p>
-                        <textarea class="tex" required name="message" id="m" cols="30" rows="10" placeholder="Введите примечания"></textarea>
+                        <textarea class="tex" required name="primeti" id="m" cols="30" rows="10" placeholder="Введите примечания"></textarea>
                     </div>
                     <div class="form">
                         <p class="text">Контактный номер телефона</p>
-                        <input type="number" name="telephone" placeholder="Введите номер">
+                        <input type="number" name="telephone" required placeholder="Введите номер">
                     </div>
                     <div class="form">
                         <button type="submit">Отправить</button>
